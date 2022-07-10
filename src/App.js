@@ -1,9 +1,16 @@
-import logo from './logo.svg';
+import AudioAnimation from './components/AudioAnimation/AudioAnimation';
+import Settings from './components/Settings/Settings';
 import './App.css';
+import FenixRecognition from './components/FenixRecognition/FenixRecognition';
 
 function App() {
   return (
-    <div className='test'>howili</div>
+    <>
+      <AudioAnimation />
+      <div id='settingsmenu' className='displaynone'>
+        <Settings />
+      </div>
+    </>
   );
 }
 

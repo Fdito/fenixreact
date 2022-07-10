@@ -1,0 +1,1853 @@
+* {
+    outline: none;
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+    #container {
+        zoom: 200%;
+        transition: .5s;
+    }
+}
+
+.voice {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+#animation {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.voice-1 {
+    transform-origin: 0% 0%;
+    transform: rotate(3.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-2 {
+    transform-origin: 0% 0%;
+    transform: rotate(7.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-3 {
+    transform-origin: 0% 0%;
+    transform: rotate(10.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-4 {
+    transform-origin: 0% 0%;
+    transform: rotate(14.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.8s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-5 {
+    transform-origin: 0% 0%;
+    transform: rotate(18deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-6 {
+    transform-origin: 0% 0%;
+    transform: rotate(21.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-7 {
+    transform-origin: 0% 0%;
+    transform: rotate(25.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-8 {
+    transform-origin: 0% 0%;
+    transform: rotate(28.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-9 {
+    transform-origin: 0% 0%;
+    transform: rotate(32.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-10 {
+    transform-origin: 0% 0%;
+    transform: rotate(36deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-11 {
+    transform-origin: 0% 0%;
+    transform: rotate(39.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-12 {
+    transform-origin: 0% 0%;
+    transform: rotate(43.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-13 {
+    transform-origin: 0% 0%;
+    transform: rotate(46.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-14 {
+    transform-origin: 0% 0%;
+    transform: rotate(50.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-15 {
+    transform-origin: 0% 0%;
+    transform: rotate(54deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-16 {
+    transform-origin: 0% 0%;
+    transform: rotate(57.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-17 {
+    transform-origin: 0% 0%;
+    transform: rotate(61.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-18 {
+    transform-origin: 0% 0%;
+    transform: rotate(64.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-19 {
+    transform-origin: 0% 0%;
+    transform: rotate(68.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.8s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-20 {
+    transform-origin: 0% 0%;
+    transform: rotate(72deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-21 {
+    transform-origin: 0% 0%;
+    transform: rotate(75.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-22 {
+    transform-origin: 0% 0%;
+    transform: rotate(79.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-23 {
+    transform-origin: 0% 0%;
+    transform: rotate(82.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-24 {
+    transform-origin: 0% 0%;
+    transform: rotate(86.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-25 {
+    transform-origin: 0% 0%;
+    transform: rotate(90deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-26 {
+    transform-origin: 0% 0%;
+    transform: rotate(93.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-27 {
+    transform-origin: 0% 0%;
+    transform: rotate(97.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-28 {
+    transform-origin: 0% 0%;
+    transform: rotate(100.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-29 {
+    transform-origin: 0% 0%;
+    transform: rotate(104.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.2s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-30 {
+    transform-origin: 0% 0%;
+    transform: rotate(108deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-31 {
+    transform-origin: 0% 0%;
+    transform: rotate(111.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-32 {
+    transform-origin: 0% 0%;
+    transform: rotate(115.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-33 {
+    transform-origin: 0% 0%;
+    transform: rotate(118.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-34 {
+    transform-origin: 0% 0%;
+    transform: rotate(122.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-35 {
+    transform-origin: 0% 0%;
+    transform: rotate(126deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-36 {
+    transform-origin: 0% 0%;
+    transform: rotate(129.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-37 {
+    transform-origin: 0% 0%;
+    transform: rotate(133.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-38 {
+    transform-origin: 0% 0%;
+    transform: rotate(136.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-39 {
+    transform-origin: 0% 0%;
+    transform: rotate(140.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-40 {
+    transform-origin: 0% 0%;
+    transform: rotate(144deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-41 {
+    transform-origin: 0% 0%;
+    transform: rotate(147.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-42 {
+    transform-origin: 0% 0%;
+    transform: rotate(151.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-43 {
+    transform-origin: 0% 0%;
+    transform: rotate(154.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-44 {
+    transform-origin: 0% 0%;
+    transform: rotate(158.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-45 {
+    transform-origin: 0% 0%;
+    transform: rotate(162deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-46 {
+    transform-origin: 0% 0%;
+    transform: rotate(165.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-47 {
+    transform-origin: 0% 0%;
+    transform: rotate(169.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-48 {
+    transform-origin: 0% 0%;
+    transform: rotate(172.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-49 {
+    transform-origin: 0% 0%;
+    transform: rotate(176.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-50 {
+    transform-origin: 0% 0%;
+    transform: rotate(180deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.05s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-51 {
+    transform-origin: 0% 0%;
+    transform: rotate(183.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-52 {
+    transform-origin: 0% 0%;
+    transform: rotate(187.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-53 {
+    transform-origin: 0% 0%;
+    transform: rotate(190.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-54 {
+    transform-origin: 0% 0%;
+    transform: rotate(194.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-55 {
+    transform-origin: 0% 0%;
+    transform: rotate(198deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-56 {
+    transform-origin: 0% 0%;
+    transform: rotate(201.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-57 {
+    transform-origin: 0% 0%;
+    transform: rotate(205.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-58 {
+    transform-origin: 0% 0%;
+    transform: rotate(208.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-59 {
+    transform-origin: 0% 0%;
+    transform: rotate(212.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-60 {
+    transform-origin: 0% 0%;
+    transform: rotate(216deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-61 {
+    transform-origin: 0% 0%;
+    transform: rotate(219.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-62 {
+    transform-origin: 0% 0%;
+    transform: rotate(223.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-63 {
+    transform-origin: 0% 0%;
+    transform: rotate(226.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-64 {
+    transform-origin: 0% 0%;
+    transform: rotate(230.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-65 {
+    transform-origin: 0% 0%;
+    transform: rotate(234deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-66 {
+    transform-origin: 0% 0%;
+    transform: rotate(237.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-67 {
+    transform-origin: 0% 0%;
+    transform: rotate(241.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-68 {
+    transform-origin: 0% 0%;
+    transform: rotate(244.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-69 {
+    transform-origin: 0% 0%;
+    transform: rotate(248.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-70 {
+    transform-origin: 0% 0%;
+    transform: rotate(252deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-71 {
+    transform-origin: 0% 0%;
+    transform: rotate(255.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-72 {
+    transform-origin: 0% 0%;
+    transform: rotate(259.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-73 {
+    transform-origin: 0% 0%;
+    transform: rotate(262.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-74 {
+    transform-origin: 0% 0%;
+    transform: rotate(266.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-75 {
+    transform-origin: 0% 0%;
+    transform: rotate(270deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.05s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-76 {
+    transform-origin: 0% 0%;
+    transform: rotate(273.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-77 {
+    transform-origin: 0% 0%;
+    transform: rotate(277.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-78 {
+    transform-origin: 0% 0%;
+    transform: rotate(280.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-79 {
+    transform-origin: 0% 0%;
+    transform: rotate(284.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-80 {
+    transform-origin: 0% 0%;
+    transform: rotate(288deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-81 {
+    transform-origin: 0% 0%;
+    transform: rotate(291.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-82 {
+    transform-origin: 0% 0%;
+    transform: rotate(295.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-83 {
+    transform-origin: 0% 0%;
+    transform: rotate(298.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-84 {
+    transform-origin: 0% 0%;
+    transform: rotate(302.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-85 {
+    transform-origin: 0% 0%;
+    transform: rotate(306deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-86 {
+    transform-origin: 0% 0%;
+    transform: rotate(309.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-87 {
+    transform-origin: 0% 0%;
+    transform: rotate(313.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-88 {
+    transform-origin: 0% 0%;
+    transform: rotate(316.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-89 {
+    transform-origin: 0% 0%;
+    transform: rotate(320.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-90 {
+    transform-origin: 0% 0%;
+    transform: rotate(324deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-91 {
+    transform-origin: 0% 0%;
+    transform: rotate(327.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-92 {
+    transform-origin: 0% 0%;
+    transform: rotate(331.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-93 {
+    transform-origin: 0% 0%;
+    transform: rotate(334.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-94 {
+    transform-origin: 0% 0%;
+    transform: rotate(338.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-95 {
+    transform-origin: 0% 0%;
+    transform: rotate(342deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-96 {
+    transform-origin: 0% 0%;
+    transform: rotate(345.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-97 {
+    transform-origin: 0% 0%;
+    transform: rotate(349.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-98 {
+    transform-origin: 0% 0%;
+    transform: rotate(352.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-99 {
+    transform-origin: 0% 0%;
+    transform: rotate(356.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-100 {
+    transform-origin: 0% 0%;
+    transform: rotate(360deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation1 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-01 {
+    transform-origin: 0% 0%;
+    transform: rotate(3.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-02 {
+    transform-origin: 0% 0%;
+    transform: rotate(7.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-03 {
+    transform-origin: 0% 0%;
+    transform: rotate(10.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-04 {
+    transform-origin: 0% 0%;
+    transform: rotate(14.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.8s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-05 {
+    transform-origin: 0% 0%;
+    transform: rotate(18deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-06 {
+    transform-origin: 0% 0%;
+    transform: rotate(21.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-07 {
+    transform-origin: 0% 0%;
+    transform: rotate(25.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-08 {
+    transform-origin: 0% 0%;
+    transform: rotate(28.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-09 {
+    transform-origin: 0% 0%;
+    transform: rotate(32.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-010 {
+    transform-origin: 0% 0%;
+    transform: rotate(36deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-011 {
+    transform-origin: 0% 0%;
+    transform: rotate(39.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-012 {
+    transform-origin: 0% 0%;
+    transform: rotate(43.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-013 {
+    transform-origin: 0% 0%;
+    transform: rotate(46.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-014 {
+    transform-origin: 0% 0%;
+    transform: rotate(50.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-015 {
+    transform-origin: 0% 0%;
+    transform: rotate(54deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-016 {
+    transform-origin: 0% 0%;
+    transform: rotate(57.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-017 {
+    transform-origin: 0% 0%;
+    transform: rotate(61.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-018 {
+    transform-origin: 0% 0%;
+    transform: rotate(64.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-019 {
+    transform-origin: 0% 0%;
+    transform: rotate(68.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.8s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-020 {
+    transform-origin: 0% 0%;
+    transform: rotate(72deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-021 {
+    transform-origin: 0% 0%;
+    transform: rotate(75.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-022 {
+    transform-origin: 0% 0%;
+    transform: rotate(79.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-023 {
+    transform-origin: 0% 0%;
+    transform: rotate(82.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-024 {
+    transform-origin: 0% 0%;
+    transform: rotate(86.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-025 {
+    transform-origin: 0% 0%;
+    transform: rotate(90deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-026 {
+    transform-origin: 0% 0%;
+    transform: rotate(93.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-027 {
+    transform-origin: 0% 0%;
+    transform: rotate(97.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-028 {
+    transform-origin: 0% 0%;
+    transform: rotate(100.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-029 {
+    transform-origin: 0% 0%;
+    transform: rotate(104.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.2s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-030 {
+    transform-origin: 0% 0%;
+    transform: rotate(108deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-031 {
+    transform-origin: 0% 0%;
+    transform: rotate(111.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-032 {
+    transform-origin: 0% 0%;
+    transform: rotate(115.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-033 {
+    transform-origin: 0% 0%;
+    transform: rotate(118.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-034 {
+    transform-origin: 0% 0%;
+    transform: rotate(122.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-035 {
+    transform-origin: 0% 0%;
+    transform: rotate(126deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-036 {
+    transform-origin: 0% 0%;
+    transform: rotate(129.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-037 {
+    transform-origin: 0% 0%;
+    transform: rotate(133.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-038 {
+    transform-origin: 0% 0%;
+    transform: rotate(136.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-039 {
+    transform-origin: 0% 0%;
+    transform: rotate(140.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-040 {
+    transform-origin: 0% 0%;
+    transform: rotate(144deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-041 {
+    transform-origin: 0% 0%;
+    transform: rotate(147.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-042 {
+    transform-origin: 0% 0%;
+    transform: rotate(151.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-043 {
+    transform-origin: 0% 0%;
+    transform: rotate(154.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-044 {
+    transform-origin: 0% 0%;
+    transform: rotate(158.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-045 {
+    transform-origin: 0% 0%;
+    transform: rotate(162deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-046 {
+    transform-origin: 0% 0%;
+    transform: rotate(165.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-047 {
+    transform-origin: 0% 0%;
+    transform: rotate(169.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-048 {
+    transform-origin: 0% 0%;
+    transform: rotate(172.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-049 {
+    transform-origin: 0% 0%;
+    transform: rotate(176.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-050 {
+    transform-origin: 0% 0%;
+    transform: rotate(180deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.05s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-051 {
+    transform-origin: 0% 0%;
+    transform: rotate(183.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-052 {
+    transform-origin: 0% 0%;
+    transform: rotate(187.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-053 {
+    transform-origin: 0% 0%;
+    transform: rotate(190.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-054 {
+    transform-origin: 0% 0%;
+    transform: rotate(194.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-055 {
+    transform-origin: 0% 0%;
+    transform: rotate(198deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-056 {
+    transform-origin: 0% 0%;
+    transform: rotate(201.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-057 {
+    transform-origin: 0% 0%;
+    transform: rotate(205.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-058 {
+    transform-origin: 0% 0%;
+    transform: rotate(208.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-059 {
+    transform-origin: 0% 0%;
+    transform: rotate(212.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.9s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-060 {
+    transform-origin: 0% 0%;
+    transform: rotate(216deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-061 {
+    transform-origin: 0% 0%;
+    transform: rotate(219.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-062 {
+    transform-origin: 0% 0%;
+    transform: rotate(223.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-063 {
+    transform-origin: 0% 0%;
+    transform: rotate(226.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-064 {
+    transform-origin: 0% 0%;
+    transform: rotate(230.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.55s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-065 {
+    transform-origin: 0% 0%;
+    transform: rotate(234deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-066 {
+    transform-origin: 0% 0%;
+    transform: rotate(237.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-067 {
+    transform-origin: 0% 0%;
+    transform: rotate(241.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-068 {
+    transform-origin: 0% 0%;
+    transform: rotate(244.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.95s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-069 {
+    transform-origin: 0% 0%;
+    transform: rotate(248.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-070 {
+    transform-origin: 0% 0%;
+    transform: rotate(252deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-071 {
+    transform-origin: 0% 0%;
+    transform: rotate(255.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.3s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-072 {
+    transform-origin: 0% 0%;
+    transform: rotate(259.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-073 {
+    transform-origin: 0% 0%;
+    transform: rotate(262.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-074 {
+    transform-origin: 0% 0%;
+    transform: rotate(266.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.7s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-075 {
+    transform-origin: 0% 0%;
+    transform: rotate(270deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.05s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-076 {
+    transform-origin: 0% 0%;
+    transform: rotate(273.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-077 {
+    transform-origin: 0% 0%;
+    transform: rotate(277.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-078 {
+    transform-origin: 0% 0%;
+    transform: rotate(280.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-079 {
+    transform-origin: 0% 0%;
+    transform: rotate(284.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-080 {
+    transform-origin: 0% 0%;
+    transform: rotate(288deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.15s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-081 {
+    transform-origin: 0% 0%;
+    transform: rotate(291.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-082 {
+    transform-origin: 0% 0%;
+    transform: rotate(295.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-083 {
+    transform-origin: 0% 0%;
+    transform: rotate(298.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-084 {
+    transform-origin: 0% 0%;
+    transform: rotate(302.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-085 {
+    transform-origin: 0% 0%;
+    transform: rotate(306deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-086 {
+    transform-origin: 0% 0%;
+    transform: rotate(309.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-087 {
+    transform-origin: 0% 0%;
+    transform: rotate(313.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-088 {
+    transform-origin: 0% 0%;
+    transform: rotate(316.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-089 {
+    transform-origin: 0% 0%;
+    transform: rotate(320.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-090 {
+    transform-origin: 0% 0%;
+    transform: rotate(324deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-091 {
+    transform-origin: 0% 0%;
+    transform: rotate(327.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.65s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-092 {
+    transform-origin: 0% 0%;
+    transform: rotate(331.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.6s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-093 {
+    transform-origin: 0% 0%;
+    transform: rotate(334.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.45s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-094 {
+    transform-origin: 0% 0%;
+    transform: rotate(338.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-095 {
+    transform-origin: 0% 0%;
+    transform: rotate(342deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.85s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-096 {
+    transform-origin: 0% 0%;
+    transform: rotate(345.6deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.75s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-097 {
+    transform-origin: 0% 0%;
+    transform: rotate(349.2deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.25s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-098 {
+    transform-origin: 0% 0%;
+    transform: rotate(352.8deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.5s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-099 {
+    transform-origin: 0% 0%;
+    transform: rotate(356.4deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 1.4s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+.voice-0100 {
+    transform-origin: 0% 0%;
+    transform: rotate(360deg) translate(0.3em, 6em);
+    width: 2px;
+    animation: audionimation 1s backwards infinite;
+    animation-delay: 0.35s;
+    background: linear-gradient(#efb810, #fffa6a);
+}
+
+@keyframes audionimation {
+    0% {
+        height: 10px;
+        opacity: 0;
+    }
+
+    50% {
+        height: 1px;
+        opacity: 1;
+    }
+}
+
+@keyframes audionimation1 {
+    0% {
+        height: 10px;
+        opacity: 0;
+    }
+
+    50% {
+        height: 1px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 20px;
+        opacity: 1;
+    }
+}
